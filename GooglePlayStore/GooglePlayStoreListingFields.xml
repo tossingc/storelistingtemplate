@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<StoreListing>
+    <Title required></Title>
+    <ShortDescription required></ShortDescription>
+    <FullDescription required></FullDescription>
+
+    <!-- Applications/Games -->
+    <ApplicationType required></ApplicationType>
+
+    <!-- Art & Design, Auto & Vehicles, Beauty, Books & Reference, Business, Comics, Communication, Dating, Education, Entertainment, Events, Finance, Food & Drink, Health & Fitness, House & Home, Libraries & Demo, Lifestyle, Maps & Navigation, Medical, Music & Audio, News & Magazines, Parenting, Personalization, Photography, Productivity, Shopping, Social, Sports, Tools, Travel & Local, Video Players & Editors, Weather -->
+    <Category required></Category>
+    <ContentRating required></ContentRating>
+
+    <Website></Website>
+    <Email required></Email>
+    <Phone></Phone>
+
+    <PrivacyPolicy required></PrivacyPolicy>
+</StoreListing>

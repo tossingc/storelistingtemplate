@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<StoreListing>
+    <Name required maxLength=30></Name>
+    <Subtitle maxLength=30></Subtitle>
+    <PrivacyPolicyUrl></PrivacyPolicyUrl>
+
+    <!--    Books
+            Business
+            Catalogs
+            Education
+            Entertainment
+            Finance
+            Food & Drink
+            Games
+            Health & Fitness
+            Lifestyle
+            Magazines & Newspapers
+            Medical
+            Music
+            Navigation
+            News
+            Photo & Video
+            Productivity
+            Reference
+            Shopping
+            Social Networking
+            Sports
+            Stickers
+            Travel
+            Utilities
+            Weather
+            -->
+    <CategoryPrimary required></CategoryPrimary>
+    <CategorySecondary></CategorySecondary>
+
+    <PromotionalText maxLength=170></PromotionalText>
+    <Description maxLength=4000></Description>
+    <Keywords required maxLength=100 commaSeparated></Keywords>
+    <SupportUrl required></SupportUrl>
+    <MarketingUrl></MarketingUrl>
+
+    <Rating></Rating>
+    <!-- The name of the person or entity that owns the exclusive rights to your app, preceded by the year the rights were obtained (for example, "2008 Acme Inc."). Do not provide a URL. -->
+    <Copyright required></Copyright>
+
+
+    <AppReviewInformation>
+        <SignInInformation>
+            <SignInRequired required>True</SignInRequired>
+            <Username></Username>
+            <Password></Password>
+        </SignInInformation>
+        <AppReviewContact>
+            <FirstName required></FirstName>
+            <LastName required></LastName>
+            <PhoneNumber required></PhoneNumber>
+            <Email required></Email>
+        </AppReviewContact>
+        <Notes></Notes>
+        <HasAppReviewAttachment>False</HasAppReviewAttachment>
+    </AppReviewInformation>
+
+    <VersionRelease>
+        <!-- Manual, Automatic, Scheduled -->
+        <ReleaseType required></ReleaseType>
+
+        <ScheduledReleaseDateTime>
+            <Date></Date>
+            <Time></Time>
+            <Timezone></eTimezone>
+        </ScheduledReleaseDateTime>
+    </VersionRelease>
+</StoreListing>
